@@ -398,16 +398,16 @@
 			transition: transform calc(var(--d) * 2) var(--e);
 		  }
 		  .card:nth-child(1):before {
-			background-image: url(https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+			background-image: url(https://cdn.dribbble.com/users/1235346/screenshots/3252385/job.gif);
 		  }
 		  .card:nth-child(2):before {
-			background-image: url(https://images.unsplash.com/photo-1533903345306-15d1c30952de?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+			background-image: url(https://i.pinimg.com/originals/0d/45/4e/0d454efdcfe616f5751612ec01aa22ee.gif);
 		  }
 		  .card:nth-child(3):before {
-			background-image: url(https://images.unsplash.com/photo-1545243424-0ce743321e11?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+			background-image: url(https://cdn.dribbble.com/users/539791/screenshots/6650237/ribbble.gif);
 		  }
 		  .card:nth-child(4):before {
-			background-image: url(https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+			background-image: url(https://inspgr.id/app/uploads/2018/08/motiaon-magnusson-feature.gif);
 		  }
 		  
 		  .content {
@@ -501,30 +501,92 @@
 		  }
 
 		/* Contact me CSS Code */
-		.skills{
+		/*.skills{
 			width: 100%;
 			height:280px;
 			background-size:cover;
 			background-repeat:no-repeat;
 			background-image: url("/images/project in your mind.png");
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-			margin: 0px 0px 20px 0px;
+
+			margin: 0px auto;
 		}
 		.skills p{
-			color:#FFFFFF;
+			color:#b0bed6;
 			font-size: 30px;
-			font-family: calibri;
+			font-family: monospace;
 			font-weight:bold;
-			
+			margin-left: 500px;
 		}
 		.skills p:hover{
   			color: #03dac6;
-		}
-		
+		} */
+		/* Skills CSS Code */
+		.section skills{
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+			padding: 100px 170px;
 
+			margin: -7% auto 20px auto;
+			position: relative;
+			justify-content: space-evenly;
+			align-items: center;
+		}
+		.section__title {
+			-ms-flex-negative: 0;
+			flex-shrink: 0;
+			width: 200px;
+			margin-right: 70px;
+			color: #007bff;
+			text-transform: uppercase;
+			text-align: right;
+			font-weight: 700;
+			letter-spacing: 2px;
+			
+			margin-left: 200px;
+		}
+
+.section__content {
+    font-weight: 300;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 650px;
+	
+	margin-left: 560px;
+}
+.skills .skillz {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.skills .skillz__category__label {
+    font-weight: 700;
+    color: #7e7d7d;
+    text-transform: uppercase;
+}
+
+.skills .skillz__category__item {
+    
+    margin: 3px 0 9px;
+    font-family: Inconsolata,monospace;
+    font-size: .9rem;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 3px;
+    color: #007bff;
+    border: 1px solid #007bff;
+    background: 0 0;
+}
+*, ::after, ::before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
 		/* Footer CSS Code */
 		footer p{
 			font-family: calibri;
@@ -706,12 +768,23 @@
 			height:35px;
 			width: 160px;
 		}
+		
+	/*	.section {
+    padding: 50px 35px;
+} */
+.section {
+    padding: 50px;
+}
+
 	}
 	@media(max-width:750px){
 		section{
 			background-image:none;
 			
 		}
+.section {
+    display: block;
+}
 		.toggle{
 			display: block;
 		}
