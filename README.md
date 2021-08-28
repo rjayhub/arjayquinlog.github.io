@@ -8,7 +8,7 @@ A portfolio is a compilation of materials that exemplifies your beliefs, skills,
 ![GitHub forks](https://img.shields.io/github/forks/rjayhub/rjayhub.github.io)
 [![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/rjayhub/rjayhub.github.io/commits/master)
 [![Website shields.io](https://img.shields.io/badge/website-up-yellow)](http://rjayhub.github.io/)
-[![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/arjayquinlog/)
+[![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/arjay-quinlog-2362891b6/)
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 
