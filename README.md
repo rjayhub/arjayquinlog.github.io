@@ -43,7 +43,8 @@ A portfolio is a compilation of materials that exemplifies your beliefs, skills,
 
 ## Tools Used 🛠️
 * [<b>GitHub Pages</b>](https://create-react-app.dev/docs/deployment/#github-pages) - To host my static website (HTML, CSS, JS).
-* [<b>Bootstraps</b>](https://bootstraps.com/) - A CSS framework 
+* [<b>Bootstraps</b>](https://bootstraps.com/) - The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.
+* [<b>JQuery</b>](https://mattboldt.com/demos/typed-js/)-JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.
 * [<b>Typed.js</b>](https://mattboldt.com/demos/typed-js/) - JavaScript Library
 
 ## Contributing 💡
