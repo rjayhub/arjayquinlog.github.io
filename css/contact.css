@@ -175,10 +175,11 @@
 			box-shadow:2px 2px 12px rgba(0,0,0,0.2);
 			padding:0px 5%;
 			position: absolute;
-			width:90%;
+			width:100%;
 		}
 		nav ul{
 			display: flex;
+			margin-right: 150px;
 		}
 		.toggle{
 			display: none;
@@ -210,16 +211,14 @@
 
 
 		.content{
-			position: fixed;
-			top: 60px;
-			height: calc(100vh - 60px);
 			width: 100vw;
 			display: flex;
-			align-items: center;
+			flex-direction: column;
+			margin-left: 90px;
+			margin-top: -250px;
 			justify-content: center;
 			overflow: auto;
 			padding: 20px;
-			right: 10px;
 		}
 
 .contact{
@@ -446,11 +445,6 @@ button:hover{
 		
 	}
 }
-@media screen and (max-height: 660px){
-	.content{
-		align-items: flex-start;
-	}
-}
 
 @media (max-width: 660px){
     section{
@@ -506,4 +500,8 @@ button:hover{
         display: flex !important;
     }
 	
+	.content{
+		margin-top: -300px;
+		margin-left: 0px;
+	}
 }

@@ -30,10 +30,11 @@ nav {
     box-shadow:2px 2px 12px rgba(0,0,0,0.2);
     padding:0px 5%;
     position: absolute;
-    width:90%;
+    width:100%;
 }
 nav ul{
     display: flex;
+    margin-right: 150px;
 }
 .toggle{
     display: none;
@@ -102,7 +103,7 @@ nav ul li a:hover{
     flex: 1;
     min-width: 290px;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
-    -webkit-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden; 
     -moz-backface-visibility: hidden;
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
@@ -215,7 +216,9 @@ ul{list-style: none}
   overflow: hidden;
  position: absolute;
  top: 850px;
- left: 600px;
+ left: 50px;
+ right: 0px;
+
 }
 
 #timeline ul
@@ -616,6 +619,10 @@ ul{list-style: none}
         transform: scale(1.2);
         z-index: -1;
     }
+
+   
+    
+    
 }
 @media(max-width:750px){
     section{

@@ -43,7 +43,7 @@
 
 	<section>
 		
-<div id="particles-js">
+	<div id="particles-js">
 	<!--navigation-->
 			<nav>	
 			<!--logo-->
@@ -67,13 +67,20 @@
 			<p>I'M ARJAY</p>
 			<p class="txt-rotate" data-period="2000" 
 				data-rotate='[ "Welcome to my Personal Website", "This is a classic website ", "no traps or weird stuff!", "Feel free to browse, ", "relax and I dont know" ]'></p>
+			<a href="contact.html">
+				<button class="hire-btn">Hire me</button>
+			</a>
 
-			<button class="hire-btn">Hire me</button>
-			<button class="down-cv">Download CV</button>
+			<button class="down-cv" onclick="download()">Download CV</button>
+			<script>
+				function download(){
+					document.location.href ="about.html";
+				}				
+			</script>
 		</div>
 		
 		<!--mode-->
-</div>
+	</div>
 
 		<!--about-container-->
 	    <div class="about-container">
@@ -90,8 +97,14 @@
 					I never give up and constantly learn new skills and gather more knowledge to be the better version of myself. I believe you can hire me without any doubt.
 				</p>
 				<p>Thanks for Visiting My Website</p>
-				<button >Hire Me</button>
-				<button>Download CV</button>
+				<a href="contact.html">
+				<button >Hire Me</button></a>
+				<button onclick="download()">Download CV</button>
+				<script>
+					function download(){
+						document.location.href ="about.html";
+					}				
+				</script>
 				</div>
 				
 			</div>
@@ -141,7 +154,8 @@
 <section class="section skills">
   <div class="section__title">Skills</div>
   <div class="section__content">
-    <!-- <p>I’ve picked up quite a few skills during the course of my three co-ops, and aim to improve these skills everyday. Here are a few of the technologies that I have experience with:</p> -->
+<!-- <p>I’ve picked up quite a few skills during the course, and aim to improve these skills everyday.
+	Here are a few of the technologies that I have experience with:</p> -->
     <div class="skillz">
       <div class="skillz__category">
         <div class="skillz__category__label">Languages</div>
@@ -150,13 +164,14 @@
           <li class="skillz__category__item">HTML5</li>
           <li class="skillz__category__item">CSS3</li>
           <li class="skillz__category__item">Javascript</li>
-          <li class="skillz__category__item">JQuery</li>
-          <li class="skillz__category__item">Jekyll</li>
+          <li class="skillz__category__item">Python3</li>
           <li class="skillz__category__item">JAVA</li>
+          <li class="skillz__category__item">Python</li>
 		  <li class="skillz__category__item">C#</li>
 		  <li class="skillz__category__item">C/C++</li>
-		  <li class="skillz__category__item">SQL</li>
-		  <li class="skillz__category__item">MongoDB</li>
+		  <li class="skillz__category__item">Lua</li>
+		  <li class="skillz__category__item">VB.NET</li> 
+
         </ul>
       </div>
       <div class="skillz__category">
@@ -164,8 +179,9 @@
         <ul>
           
           <li class="skillz__category__item">Spring</li>
-          <li class="skillz__category__item">JSF (JavaServer Faces)</li>
-          <li class="skillz__category__item">GWT (Google Web Toolkit)</li>
+		  <li class="skillz__category__item">ASP. NET</li>
+          <li class="skillz__category__item">JQuery</li>
+          <li class="skillz__category__item">Spring MVC</li>
           <li class="skillz__category__item">Struts</li>
           <li class="skillz__category__item">Hibernate</li>
 		  <li class="skillz__category__item">Bootstrap</li>
@@ -182,10 +198,14 @@
           <li class="skillz__category__item">VS Code</li>
           <li class="skillz__category__item">NetBeans IDE</li>
           <li class="skillz__category__item">Sublime Text</li>
-          <li class="skillz__category__item">Xampp</li>
+          <li class="skillz__category__item">XAMPP</li>
           <li class="skillz__category__item">Github Desktop</li>
-		  <li class="skillz__category__item">Eclipse</li>
+		  <li class="skillz__category__item">Eclipse IDE</li>
 		  <li class="skillz__category__item">BlueJ</li>
+		  <li class="skillz__category__item">Docker Container</li>
+		  <li class="skillz__category__item">MS Visual Studio</li>
+		  <li class="skillz__category__item">UNITY3D</li>
+		  <li class="skillz__category__item">UnrealEngine</li>
 		  
           
         </ul>
@@ -199,14 +219,27 @@
           <li class="skillz__category__item">Keras</li>
           <li class="skillz__category__item">NumPy</li>
           <li class="skillz__category__item">Pillow</li>
-		  <li class="skillz__category__item">Panda</li>
-		  <li class="skillz__category__item">Apache Commons</li>
+		  <li class="skillz__category__item">Apache Commons CSV</li>
 		  <li class="skillz__category__item">Maven</li>
 		  <li class="skillz__category__item">Apache Log4j</li>
 		  <li class="skillz__category__item">Mockito</li>
+		  <li class="skillz__category__item">JUnit5 TDD</li>
           
         </ul>
       </div>
+	  <div class="skillz__category">
+        <div class="skillz__category__label">Database</div>
+        <ul>
+          
+          <li class="skillz__category__item">SQL</li>
+		  <li class="skillz__category__item">MySQL</li>
+          <li class="skillz__category__item">PostgreSQL</li>
+          <li class="skillz__category__item">MongoDB</li>
+          <li class="skillz__category__item">MariaDB</li>
+		  <li class="skillz__category__item">SparkSQL</li>
+		  
+        </ul>
+	  </div>
     </div>
   </div>
 </section>
@@ -226,11 +259,12 @@
 			<a href="https://github.com/rjayhub"><i class="fa fa-github"></i></a>
 		</div>
 		 <!--copyright-->
-		<a href="#"><i class="terms">Terms of Service · Privacy Policy</i></a>
-		 <p class="copyright">© 2021 Arjay Quinlog</p>
+		<a href="#" class="terms">Terms of Service · Privacy Policy</a>
+		 <div class="copyright">© 2021 Arjay Quinlog</p>
+		 <a href="#" class="go-top">Go to Top</a>
 	</footer>
 
-	<a href="#" class="go-top">Go to Top</a>
+	
 		<!--social-attach-bar rightside-->
 		<div class="social">
 		<a href="https://web.facebook.com/radioactiveware"><i class="fa fa-facebook"></i></a>

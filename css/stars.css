@@ -111,7 +111,7 @@ html {
   
   #title {
 	position: absolute;
-	top: 50%;
+	top: 20%;
 	left: 0;
 	right: 0;
 	color: #FFF;
@@ -142,13 +142,7 @@ html {
 	letter-spacing: 0px;;
   }
   #title .avatar_image{
-	  position: absolute;
-	  border-radius: 150px;
-	  left: 570px;
-	  right: 0px;
-	  bottom: 350px;
-	  color: #23c273;
-	  
+	  border-radius: 50px;
   }
   /* Responsive CSS Code */
 	@media(max-width:1000px){
